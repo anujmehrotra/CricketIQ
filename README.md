@@ -151,6 +151,14 @@ The prediction model utilizes several cricket-specific engineered features inclu
 - Toss Decision
 - Team Strength
 
+## Model Performance
+
+        Model	                Accuracy        Balanced Accuracy Precision	Recall	        F1 Score	ROC-AUC
+0	Dummy Classifier	0.507042	0.500000	  0.000000	0.000000	0.000000	0.500000
+1	Gradient Boosting	0.464789	0.464683	  0.457143	0.457143	0.457143	0.490079
+2	Random Forest	        0.492958	0.492063	  0.483871	0.428571	0.454545	0.480159
+3	Logistic Regression	0.521127	0.520635	  0.515152	0.485714	0.500000	0.466667
+
 ### Models Evaluated
 
 - Dummy Classifier
@@ -160,7 +168,12 @@ The prediction model utilizes several cricket-specific engineered features inclu
 
 The **Gradient Boosting Classifier** achieved the best overall performance and was selected as the final production model.
 
----
+### Model Limitations
+
+- Predictions are based on historical IPL patterns.
+- Player availability and playing XI are not currently included.
+- Injuries, pitch condition, weather and in-match events are not considered.
+- The output represents model-estimated probability, not certainty.
 
 # 📊 Exploratory Data Analysis
 
@@ -179,6 +192,18 @@ The project includes detailed cricket analysis such as:
 - Win Percentage Analysis
 
 ---
+
+## Dataset
+
+The project uses IPL match-level and ball-by-ball datasets containing:
+
+- match metadata
+- teams and winners
+- venues and cities
+- toss information
+- batting deliveries
+- bowling deliveries
+- dismissal information
 
 # 🗃 SQL Analytics
 
