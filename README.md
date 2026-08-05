@@ -347,7 +347,7 @@ streamlit run app.py
 B.Tech – Mathematics & Computing  
 Manipal Institute of Technology (MAHE)
 
-GitHub: https://github.com/YOUR_GITHUB_USERNAME
+GitHub: https://github.com/anujmehrotra
 
 ---
 
