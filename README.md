@@ -1,6 +1,10 @@
 # CricketIQ
 ### End-to-End IPL Analytics & Match Prediction Platform
 
+🌐 **Live Demo:**https://ipl-cricketiq.streamlit.app/
+
+📂 **GitHub Repository:** https://github.com/anujmehrotra/CricketIQ
+
 **Built with Python • SQL • Machine Learning • Streamlit • Power BI**
 
 ![Python](https://img.shields.io/badge/Python-3.11-blue?logo=python)
