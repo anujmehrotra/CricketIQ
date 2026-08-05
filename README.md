@@ -165,7 +165,7 @@ The prediction model utilizes several cricket-specific engineered features inclu
 - Random Forest Classifier
 - ✅ Gradient Boosting Classifier (Final Model)
 
-The **Gradient Boosting Classifier** achieved the best overall performance and was selected as the final production model.
+Multiple machine learning models—including Dummy Classifier, Logistic Regression, Random Forest, and Gradient Boosting—were evaluated using several metrics such as Accuracy, Balanced Accuracy, F1 Score, and ROC-AUC. Gradient Boosting was selected as the deployment model because it effectively captures nonlinear relationships and feature interactions present in IPL match data, making it well suited for this prediction task. The deployed application uses the trained Gradient Boosting pipeline for all match predictions.
 
 ### Model Limitations
 
