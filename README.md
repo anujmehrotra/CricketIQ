@@ -153,15 +153,12 @@ The prediction model utilizes several cricket-specific engineered features inclu
 
 ## Model Performance
 
-## Model Performance
-
 | Model | Accuracy | Balanced Accuracy | Precision | Recall | F1 Score | ROC-AUC |
+|---|---:|---:|---:|---:|---:|---:|
 | Dummy Classifier | 0.507042 | 0.500000 | 0.000000 | 0.000000 | 0.000000 | 0.500000 |
 | Gradient Boosting | 0.464789 | 0.464683 | 0.457143 | 0.457143 | 0.457143 | 0.490079 |
 | Random Forest | 0.492958 | 0.492063 | 0.483871 | 0.428571 | 0.454545 | 0.480159 |
 | Logistic Regression | 0.521127 | 0.520635 | 0.515152 | 0.485714 | 0.500000 | 0.466667 |
-
-### Models Evaluated
 
 - Dummy Classifier
 - Logistic Regression
