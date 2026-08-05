@@ -1,7 +1,7 @@
 # CricketIQ
 ### End-to-End IPL Analytics & Match Prediction Platform
 
-🌐 **Live Demo:**https://ipl-cricketiq.streamlit.app/
+🌐 **Live Demo:** https://ipl-cricketiq.streamlit.app/
 
 📂 **GitHub Repository:** https://github.com/anujmehrotra/CricketIQ
 
